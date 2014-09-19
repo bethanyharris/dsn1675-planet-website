@@ -30,10 +30,10 @@ img {
   width: 100%;
 }
 
-header {
-    padding-bottom: 1rem;
+.masthead {
     background-color: #DDDDDD;
 }
+
 
 .title {
     text-align: center;
@@ -58,4 +58,23 @@ header {
     .nav li { 
         display: inline-block;
     }
+}
+
+@media only screen and (min-width:40em) {
+
+    header {
+        overflow: auto;
+    }
+    
+    .title {
+        float: left;
+        padding: 0 0 .2em 0;
+    }
+    
+    .nav {
+        float: left;
+        padding: 1.4em 0 1em 0;
+    }
+    
+
 }
