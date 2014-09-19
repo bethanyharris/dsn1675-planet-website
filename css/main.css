@@ -48,3 +48,14 @@ header {
     color: #0074D9;
     text-decoration: none;
 }
+
+@media only screen and (min-width:25em) {
+    
+    .nav {
+        text-align:center;
+    }
+    
+    .nav li { 
+        display: inline-block;
+    }
+}
