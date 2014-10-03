@@ -31,50 +31,62 @@ img {
 }
 
 .masthead {
-    background-color: #DDDDDD;
+  overflow: hidden;
+
+  background-color: #ccc;
 }
 
-
 .title {
-    text-align: center;
+  margin: 0;
+
+  text-align: center;
 }
 
 .nav {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
 }
 
-.nav a {
-    color: #0074D9;
-    text-decoration: none;
+.nav li {
+  display: block;
 }
 
-@media only screen and (min-width:25em) {
-    
-    .nav {
-        text-align:center;
-    }
-    
-    .nav li { 
-        display: inline-block;
-    }
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #0074D9;
+  text-decoration: none;
 }
 
-@media only screen and (min-width:40em) {
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #0074D9;
 
-    header {
-        overflow: auto;
-    }
-    
-    .title {
-        float: left;
-        padding: 0 0 .2em 0;
-    }
-    
-    .nav {
-        float: left;
-        padding: 1.4em 0 1em 0;
-    }
-    
+  color: #fff;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 40em) {
+
+  .title {
+    float: left;
+  }
+
+  .nav {
+    float: left;
+  }
 
 }
