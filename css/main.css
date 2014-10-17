@@ -16,6 +16,27 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+
+    html {
+        font-size: 110%
+    }
+}
+    
+@media only screen and (min-width: 90em) {
+
+    html {
+        font-size: 120%
+    }
+}
+    
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%
+    }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -67,7 +88,8 @@ img {
   color: #fff;
 }
 
-@media only screen and (min-width: 20em) {
+
+@media only screen and (min-width: 25em) {
 
   .nav {
     text-align: center;
@@ -76,19 +98,27 @@ img {
   .nav li {
     display: inline-block;
   }
-
+       
+    .consortium {
+        text-align: center;
+    }
+    
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
 
   .title {
     float: left;
   }
 
   .nav {
-    float: left;
+    float: right;
   }
 
+ .consortium {
+    text-align: left;
+    }
+    
 }
 
 .box {
@@ -105,4 +135,21 @@ footer {
 
 .grey {
     background-color: #efefef;
+}
+
+@media only screen and (min-width: 60em) {
+
+    dt {
+  clear: left;
+  float: left;
+  width: 8em;
+}
+
+dd {
+  float: left;
+}
+    
+    .moontext {
+        padding-left: 1em;
+    }
 }
