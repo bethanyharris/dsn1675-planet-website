@@ -152,4 +152,13 @@ dd {
     .moontext {
         padding-left: 1em;
     }
+    
+      .nav {
+    float: right;
+  }
+
+ .consortium {
+    text-align: left;
+    }
+    
 }
