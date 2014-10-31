@@ -193,5 +193,45 @@ dd {
  .consortium {
     text-align: left;
     }
-    
+}
+
+label {
+    display:block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+.join {
+    text-align: center;
+}
+
+.feild {
+    width: 100%;
+    height: 2em;
+}
+
+fieldset {
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    height: 15em;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.sign {
+text-align: center;
+}
+
+.radio {
+    white-space: nowrap;
 }
