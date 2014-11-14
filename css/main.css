@@ -184,40 +184,6 @@ color: #DAA520;
     font-family: 'oswald', serif;
 }
 
-footer {
-    background-color: #ccc;
-    font-family: 'oswald', serif;
-}
-
-.grey {
-    background-color: #efefef;
-}
-
-@media only screen and (min-width: 60em) {
-
-    dt {
-  clear: left;
-  float: left;
-  width: 8em;
-}
-
-dd {
-  float: left;
-}
-    
-    .moontext {
-        padding-left: 1em;
-    }
-    
-      .nav {
-    float: right;
-  }
-
- .consortium {
-    text-align: left;
-    }
-}
-
 label {
     display:block;
 }
@@ -258,4 +224,38 @@ text-align: center;
 
 .radio {
     white-space: nowrap;
+}
+
+footer {
+    background-color: #ccc;
+    font-family: 'oswald', serif;
+}
+
+.grey {
+    background-color: #efefef;
+}
+
+@media only screen and (min-width: 60em) {
+
+    dt {
+  clear: left;
+  float: left;
+  width: 8em;
+}
+
+dd {
+  float: left;
+}
+    
+    .moontext {
+        padding-left: 1em;
+    }
+    
+      .nav {
+    float: right;
+  }
+
+ .consortium {
+    text-align: left;
+    }
 }
