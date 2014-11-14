@@ -86,7 +86,7 @@ img {
 
 .masthead {
   overflow: hidden;
-    background-color: #ccc;
+    background-color: #8B008B;
 }
 
 .title {
@@ -117,17 +117,30 @@ font-family: 'oswald', serif;
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #0074D9;
-
-  color: #fff;
+background-color: #0074D9;
+color: #fff;
 }
 
-body#home #navhome, body#moons #navmoons, body#exploration #navexploration {
+body#home #navhome,
+body#moons #navmoons,
+body#exploration #navexploration {
 color: #DAA520;
 }
 
 .oswald {
     font-family: 'oswald', serif;
+}
+
+.gold {
+    background-color: #DAA520;
+}
+
+.blue {
+    background-color: #0074D9;
+}
+
+.purple {
+    background-color: #8B008B;
 }
 
 @media only screen and (min-width: 25em) {
